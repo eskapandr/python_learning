@@ -1,0 +1,7 @@
+#Задача1
+A = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+for el in A:
+    if el % 2 != int:
+        A.remove(el)
+    el =+ 1
+print(A)
